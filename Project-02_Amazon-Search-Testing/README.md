@@ -21,3 +21,6 @@ This project contains manual testing artifacts for the Amazon India Search Funct
 ## Status
 
 Completed
+
+Bug Report:
+No functional defects were identified during testing.
