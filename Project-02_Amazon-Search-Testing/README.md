@@ -18,9 +18,15 @@ This project contains manual testing artifacts for the Amazon India Search Funct
 - UI Testing
 - Regression Testing
 
+## Project Deliverables
+
+✔ Test Cases
+✔ Test Execution Report
+✔ Enhancement Report
+
+Bug Status:
+No functional defects were identified during the testing cycle.
+
 ## Status
 
 Completed
-
-Bug Report:
-No functional defects were identified during testing.
