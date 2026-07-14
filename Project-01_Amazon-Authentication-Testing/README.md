@@ -33,5 +33,8 @@ This project demonstrates manual testing of the Amazon Authentication (Sign In) 
 - Google Chrome
 - GitHub
 
+ ## Note
+Bug screenshots were not captured during execution as the focus of this project was on manual test design, execution, bug reporting, and enhancement documentation.
+
 ## Author
 Aranya dev
