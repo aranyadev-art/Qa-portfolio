@@ -58,6 +58,14 @@ Postman collections were executed using Newman from the command line, and automa
 * Validating API responses programmatically
 * Basic command-line automation workflow
 
+ ## Execution Screenshots
+
+  ### Newman CLI Execution
+
+  ### GitHub Actions CI Pipeline
+
+  ### HTML Report
+
 ## Tester
 
 Aranya dev
