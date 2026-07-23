@@ -61,10 +61,14 @@ Postman collections were executed using Newman from the command line, and automa
  ## Execution Screenshots
 
   ### Newman CLI Execution
+<img width="380" height="508" alt="image" src="https://github.com/user-attachments/assets/60d881b6-7052-4f20-9116-325037cd12b6" />
 
   ### GitHub Actions CI Pipeline
+<img width="882" height="705" alt="image" src="https://github.com/user-attachments/assets/e1a74957-5618-4201-9462-b50ba42c97a5" />
 
   ### HTML Report
+<img width="762" height="628" alt="image" src="https://github.com/user-attachments/assets/cfd0a4ef-a8c1-464d-bf73-d12708d572cf" />
+
 
 ## Tester
 
