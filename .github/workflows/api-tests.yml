@@ -23,7 +23,7 @@ jobs:
 
       - name: Run API Automation Collection
         run: |
-          newman run project07-automation.json --reporters cli,htmlextra
+         newman run "Project-07: API Automation with Postman + Newman/project07-automation.json" --reporters cli,htmlextra
 
       - name: Upload HTML Report
         uses: actions/upload-artifact@v4
