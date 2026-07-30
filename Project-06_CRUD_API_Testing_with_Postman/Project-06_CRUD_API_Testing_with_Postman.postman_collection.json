@@ -1,0 +1,517 @@
+{
+  "info": {
+    "_postman_id": "d47512e6-225f-41d3-b358-5f38c20f81a1",
+    "name": "Project-06_CRUD_API_Testing_with_Postman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54893138",
+    "_collection_link": "https://go.postman.co/collection/54893138-d47512e6-225f-41d3-b358-5f38c20f81a1?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "CRUD APIs",
+      "item": [
+        {
+          "name": "Create User API (ORIGNAL)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Wrong HTTP method for Create endpoint",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete with invalid endpoint",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete a non-existing user",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/9993",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "9993"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete an existing user",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/2",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update user with invalid user id",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/9999",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "9999"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update user with valid name and job",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/2",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Wrong HTTP method for Update endpoint",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/2",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Partial update with invalid field",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"unknownField\": \"test123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/2",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Partial Update User",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"job\": \"Lead QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/2",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create User with invalid id",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users/2",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users",
+                "2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create User with empty request body",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create User with empty job field",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Prem Kumar\",\r\n  \"job\": \"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create User with empty name field",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "x-api-key",
+                "value": "free_user_3DnF7wQY2tYfxpot17QadBWkO3E",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"\",\r\n  \"job\": \"QA Engineer\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://reqres.in/api/users",
+              "protocol": "https",
+              "host": [
+                "reqres",
+                "in"
+              ],
+              "path": [
+                "api",
+                "users"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
